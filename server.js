@@ -6,7 +6,7 @@ const server = http.createServer((req, res) => {
 
 
     // lodash 
-
+     
 const num=_.random(0, 20);
 console.log(num);  
 
@@ -27,7 +27,7 @@ great();
       path += "index.html";
       res.statusCode = 200; // OK
       break;
-    case "/about":
+    case "/about": 
       path += "about.html";
       res.statusCode = 200; // OK
 
